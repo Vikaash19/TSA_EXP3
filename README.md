@@ -1,15 +1,15 @@
 # Ex.No: 03   COMPUTE THE AUTO FUNCTION(ACF)
-Date: 2.9.2025
-### AIM:
+### Date: 2.9.2025
+## AIM:
 To Compute the AutoCorrelation Function (ACF) of the data for the first 35 lags to determine the model
 type to fit the data.
-### ALGORITHM:
+## ALGORITHM:
 1. Import the necessary packages
 2. Find the mean, variance and then implement normalization for the data.
 3. Implement the correlation using necessary logic and obtain the results
 4. Store the results in an array
 5. Represent the result in graphical representation as given below.
-### PROGRAM:
+## PROGRAM:
 ```
 import pandas as pd
 import numpy as np
@@ -38,8 +38,8 @@ plt.ylabel("Autocorrelation")
 plt.grid(True)
 plt.show()
 ```
-### OUTPUT:
+## OUTPUT:
 <img width="746" height="565" alt="tsa exp 3 output" src="https://github.com/user-attachments/assets/8fde4063-c98c-4108-9736-77ed7c15fd9c" />
 
-### RESULT:
+## RESULT:
 Thus we have successfully implemented the auto correlation function in python.
